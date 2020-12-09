@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 80px;
+    background-color: #03506f;
+    background-attachment: fixed;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navbar li{
+     list-style: none;
+     font-size: 25px;
+     padding: 0 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* header css */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bbbbbb;
+    height: 600px;
+    background-image: linear-gradient(62deg, #bbbbbb 0%, #e0dfdf 100%);
+    /* background-image: linear-gradient(62deg, #bbbbbb 30%, #adadad 50%, #bbbbbb 30%); */
+}
+
+.about h1{
+    word-spacing: 1px;
+    line-height: 1.4;
+    color: #fff;
+    font-size: 80px;
+    
+}
+
+.about p{
+   color: #03506f;
+   font-size: 35px;
+   font-style: italic;
+}
+
+/* projects css */
+
+.projects{
+    height: 600px;
+    background-color: #0a043c;
+} 
+
+.projects span{
+    color: #fff;
+    font-size: 40px;
+    border-bottom: 1px solid whitesmoke;
+    margin-top: 70px;  
+}
+
+.allMyProjects{
+    display: flex;
+    justify-content: center;
+}
+
+.allMyProjects div{
+    color: white;
+}
+
